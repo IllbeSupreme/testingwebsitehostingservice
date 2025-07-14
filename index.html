@@ -18,7 +18,7 @@
             text-align: center;
         }
         .hero {
-            background-image: url('https://source.unsplash.com/iQgzdRbxbDI/1600x900'); /* Hintergrund für Home: Junk Removal Thema (cluttered garage) */
+            background-image: url('https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Hero: Junk Removal (full dumpster) */
             background-size: cover;
             background-position: center;
             padding: 100px 20px;
@@ -28,10 +28,12 @@
         .hero h1 {
             font-size: 3em;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Schatten für bessere Lesbarkeit */
         }
         .hero p {
             font-size: 1.5em;
             margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Schatten für bessere Lesbarkeit */
         }
         .btn {
             background-color: #ff9900;
@@ -62,15 +64,19 @@
         }
         .service h3 {
             font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Schatten für bessere Lesbarkeit */
+        }
+        .service p {
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Schatten für bessere Lesbarkeit */
         }
         #entruempelung {
-            background-image: url('https://source.unsplash.com/3uqyjfdWBfE/1600x900'); /* Hintergrund für Entrümpelung: Volle Garage/Clutter */
+            background-image: url('https://images.pexels.com/photos/1571462/pexels-photo-1571462.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Entrümpelung: Cluttered room */
         }
         #abbruch {
-            background-image: url('https://source.unsplash.com/e9MnQiCXul0/1600x900'); /* Hintergrund für Abbruch: Heavy Equipment */
+            background-image: url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Abbruch: Demolition site with equipment */
         }
         #umzug {
-            background-image: url('https://source.unsplash.com/gthSas4oYC0/1600x900'); /* Hintergrund für Umzug: Kartons/Boxes */
+            background-image: url('https://images.pexels.com/photos/4246183/pexels-photo-4246183.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Umzug: Moving boxes */
         }
         #about {
             background-color: #f4f4f4;
@@ -110,4 +116,37 @@
     </div>
 
     <section id="services">
-        <h2 style="text-align: center;">Unsere Leist
+        <h2 style="text-align: center;">Unsere Leistungen</h2>
+        <div class="services">
+            <div class="service" id="entruempelung">
+                <h3>Entrümpelung</h3>
+                <p>Haben Sie zu viel Gerümpel? Wir räumen Ihren Keller, Dachboden oder die ganze Wohnung aus. Umweltfreundliche Entsorgung inklusive. Werden Sie frei von Ballast und gewinnen Sie Platz zurück – kontaktieren Sie uns für ein unverbindliches Angebot!</p>
+            </div>
+            <div class="service" id="abbruch">
+                <h3>Abbruch</h3>
+                <p>Professioneller Abbruch von Gebäuden, Wänden oder Anbauten. Mit modernem Equipment und Sicherheitsstandards. Ob klein oder groß – wir machen Platz für Neues. Vertrauen Sie auf unsere Erfahrung und sparen Sie Zeit und Nerven!</p>
+            </div>
+            <div class="service" id="umzug">
+                <h3>Umzug</h3>
+                <p>Stressfreier Umzug? Kein Problem! Wir packen, transportieren und richten ein. Privat oder gewerblich, lokal oder überregional. Mit Alsheikh Service wird Ihr Neustart zum Kinderspiel – holen Sie sich jetzt Ihr maßgeschneidertes Angebot!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Über Uns</h2>
+        <p>Alsheikh Service ist Ihr lokaler Experte mit Jahren an Erfahrung in Entrümpelung, Abbruch und Umzügen. Wir setzen auf Zuverlässigkeit, Pünktlichkeit und faire Preise. Unser Team aus Profis sorgt dafür, dass jeder Auftrag reibungslos abläuft. Zufriedene Kunden sind unser Erfolg – werden Sie der Nächste!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Fragen? Brauchen Sie ein Angebot? Schreiben Sie uns direkt über WhatsApp – wir antworten blitzschnell!</p>
+        <a href="https://wa.me/49123456789?text=Halllo%2C%20ich%20möchte%20ein%20Angebot%20für%20[Entrümpelung/Abbruch/Umzug]%20anfragen." class="btn">Zu WhatsApp</a>
+        <p>(Ersetzen Sie die Nummer durch Ihre WhatsApp Business-Nummer)</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Alsheikh Service. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
